@@ -6,15 +6,21 @@ using System.Web;
 
 namespace SignalR
 {
+    /// <summary>
+    /// 消息类
+    /// </summary>
     public class Message
     {
-        [JsonProperty("type")]
-        public string Type { get; set; }
+        [JsonProperty("userid")]
+        public string UserID { get; set; }
 
-        [JsonProperty("title")]
-        public string Title { get; set; }
+        [JsonProperty("name")]
+        public string Name { get; set; }
 
         [JsonProperty("content")]
         public string Content { get; set; }
+
+        [JsonProperty("chattime")]
+        public string ChatTime { get; set; }
     }
 }

@@ -9,7 +9,7 @@ using System.Web;
 namespace SignalR
 {
     /// <summary>
-    /// 
+    /// SignalR的入口
     /// </summary>
     public class Startup
     {

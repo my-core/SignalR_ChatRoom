@@ -10,7 +10,7 @@
 namespace SignalR {
     
     
-    public partial class Notice {
+    public partial class chat {
         
         /// <summary>
         /// form1 控件。

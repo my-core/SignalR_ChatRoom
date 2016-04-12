@@ -21,7 +21,7 @@ namespace SignalR
         /// <param name="e"></param>
         protected void btnSend_Click(object sender, EventArgs e)
         {
-            MessageBus.SendMessage(new Message { Type = "info", Title = "测试消息", Content = this.txtMsg.Text });
+            //MessageBus.SendMessage(new Message { Type = "info", Title = "测试消息", Content = this.txtMsg.Text });
         }
     }
 }
